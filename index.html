@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"My week 3 project"</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+    <!--nav bar-->
+    <!--nav bar from BS removed drop down and disabled tab-->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<div class="container-fluid" row-gap:210px>
+    <a class="navbar-brand" href="index.html">Barkwood-Inn</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="amenities.html">Amenities</a>
+        </li>
+
+    
+      </ul>
+
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+
+    </div>
+</div>
+</nav>
+
+<div> 
+    <img class="img-fluid width" src="dogs4outside.jpg" width="1200" alt="Barkwood Inn" style="margin:60px">
+</div>
+    <h1 class="text-center"> Where the dogs have a fun vacation ! </h1>
+    <p class="text-center fs-5"> Playtime is so much fun the dogs sleep well in thier inside outside runs. </p>
+    <p class="text-center fs-5"> Your dog will beg to stay ! </p>
+
+<!--container with cards start-->
+    <div class="container text-center" mg-5>
+  <div class="row">
+
+    <div class="col-sm">
+      <div class="card shadow-lg p-3 mg-5" style="width: 18rem;">
+      <img src="dogsnack.jpg" class="car-img-top" alt="Snacks">
+           <div class="card-body">
+           <h5 class="card-title">Snack Time</h5>
+           <p class="card-text">Flavorfull Snack of the Day !</p>
+
+      </div>
+    </div>
+  </div>
+
+
+    <div class="col-sm">
+      <div class="card shadow-lg p-3 mg-5" style="width: 18rem;">
+      <img src="dogbath.jpg" class="card-img-top" alt="Bath">
+          <div class="card-body">
+          <h5 class="card-title">Bath Time</h5>
+          <p class="card-text">Enjoying a warm bath !</p>
+          
+      </div>
+     </div>
+   </div>
+
+
+    <div class="col-sm mg-5">
+      <div class="card shadow-lg p-3 mg-5" style="width: 18rem;">
+      <img src="dogbed.jpg" class="card-img-top" alt="Bed">
+         <div class="card-body">
+            <h5 class="card-title">Cormfortable Beds</h5>
+           <p class="card-text">Getting Ready for a Nap !</p>
+           
+         </div>
+      </div>
+     </div>
+  </div>
+
+</div>
+<!--cont end-->
+<!-- first grid from bootstrap st removed first line of 2 elements-->
+<div class="container text-center" style="margin-top: 60px">
+  <div class="row">
+    <div class="col-sm-4"> <img class="img-fluid" src=happydog1.jpg width="200" height="200"></div>
+    <div class="col-sm-8"> <img class="img-fluid" src=happydog2.jpg width="200" height="200"></div>
+    </div>
+
+  </div>
+</div>
+
+<!-- grid end-->
+
+<!-- grabbed form from bootstrap-->
+ <form>
+  <div class="mb-3" style="margin:60px">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3" style="margin:60px" >
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 form-check" style="margin:60px" >
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<!--end form-->
+    <script src="Node_modules/bootstrap/dist/js/bootstrap.bundle.js"> </script>
+</body>
+</html>
